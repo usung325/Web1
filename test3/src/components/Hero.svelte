@@ -1,6 +1,7 @@
 <script>
     import SectionWrapper from "./SectionWrapper.svelte";
     import Header from "./Header.svelte"; 
+    import CtAs from "./CTAs.svelte";
     
 
 </script>
@@ -32,11 +33,11 @@
 
 
         <p class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full">
-            Less thinking & more doing. I'm the designer that can find you the perfect brand identity full of 
+            
             <span class="italic"> history rich, data driven, human oriented designs </span> and much much more.
         </p>
 
-
+        <CtAs />
 
 
 
